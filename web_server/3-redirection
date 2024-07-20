@@ -1,4 +1,5 @@
-etting up nginx server
+#!/usr/bin/env bash
+#setting up nginx server
 sudo apt-get -y update
 sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP'
